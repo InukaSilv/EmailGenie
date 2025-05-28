@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "EmailGenie",
+    "version": "1.0",
+    "description": "AI-powered formal email assistant",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "icon-128.png"
+    },
+    "icons": {
+      "128": "icon-128.png"
+    },
+    "permissions": ["clipboardWrite", "clipboardRead"]
+  }
