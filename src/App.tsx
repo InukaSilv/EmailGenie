@@ -55,7 +55,7 @@ export default function App() {
         <textarea
           ref={textareaRef}
           value={inputText}
-          onChange={(e) => setInputText(e.target)}
+          onChange={(e) => setInputText(e.currentTarget.value)}
           placeholder="Type your email prompt..."
           className="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-600"
           rows={3}
